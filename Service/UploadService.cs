@@ -27,7 +27,7 @@ namespace EnsekTechTest.Service
 
                 var line = await stream.ReadLineAsync();
                 FileStructure fileStructure = null;
-                var fileLineNumber = 1;
+                var fileLineNumber = 2;
 
                 while (!string.IsNullOrEmpty(line))
                 {
